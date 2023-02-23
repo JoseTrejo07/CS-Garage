@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Motorcycle mechanic shop.">
+    <meta name="keywords" content="harley davidson, mechanic, motorcycle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>CS Garage</title>
+
+    <!-- unpkg swiper link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- external CSS link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <section class="flex">
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>CS</span>GARAGE</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#product">product</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+        <i class="fa fa-shopping-cart"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+    </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<div class="home-container">
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Adventures With Old Friends Await</h3>
+            <p>Let Us Help You Discover New Ventures</p>
+            <a href="#gallery" class="btn">Discover More</a>
+        </div>
+    
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/3.mov" loop autoplay muted webkit-playsinline playsinline></span>
+            <span class="vid-btn" data-src="images/5.mov" loop autoplay muted webkit-playsinline playsinline></span>
+            <span class="vid-btn" data-src="images/1.mov" loop autoplay muted webkit-playsinline playsinline></span>
+            <span class="vid-btn" data-src="images/8.mov" loop autoplay muted webkit-playsinline playsinline></span>
+            <span class="vid-btn" data-src="images/2.mov" loop autoplay muted webkit-playsinline playsinline></span>
+        </div>
+    
+        <div class="video-container">
+            <video src="images/3.mov" id="video-slider" loop autoplay muted webkit-playsinline playsinline></video>
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/bookNow.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>Year, Make, & Model</h3>
+                <input type="text" placeholder="Year, Make, & Model">
+            </div>
+            <div class="inputBox">
+                <h3>Service Required</h3>
+                <input type="number" placeholder="Service Required">
+            </div>
+            <div class="inputBox">
+                <h3>Desired Drop Off Date</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>Desired Pick Up Date</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- product section starts  -->
+
+<section class="product" id="product">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>r</span>
+        <span>o</span>
+        <span>d</span>
+        <span>u</span>
+        <span>c</span>
+        <span>t</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/cobraSeatSportsterHardtail.jpg" alt="">
+            <div class="content">
+                <h3>Cobra Hardtail Seat</h3>
+                <p>The Cobra seat is designed to fit perfectly on our sportster
+                    hardtail. The front of the seat features a stainless steel tab 
+                    which slides into the open tube on our hardtail.  </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $299.99 <span>$350.99</span> </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/vintageHarleyBigTwinStyleSpringerFrontEndChrome.jpg" alt="">
+            <div class="content">
+                <h3>Frontend Springer - Chrome</h3>
+                <p>Vintage style springer front end, replicated after the Harley 
+                    Davidson Big Twin springer yet incorporates modern upgrades. 
+                    Includes chrome top clamp and 3/4" axle kit.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $1,049.99 <span>$1,200.99</span> </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/deluxeEvolutionSportsterHardtailKit1982-2003.jpg" alt="">
+            <div class="content">
+                <h3>Sportster Hardtail Kit 82-03</h3>
+                <p>This Kit was original designed and manufactured by the Haifley 
+                    Bros in Phoenix Arizona.he hardtail kit is designed to fit 
+                    1982-2003 Harley Davidson Sportsters. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $1,299.99 <span>$1,599.99</span> </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/rabbitEarHandlebars-Chrome.jpg" alt="">
+            <div class="content">
+                <h3>Rabbit Ear Handlebars - Chrome</h3>
+                <p>Classic style rabbitear handlebars give you a tight comfortable 
+                    grip on your bike. They look great on long raked out choppers 
+                    or stock rake motorcycles while giving you a comfortable 
+                    riding position. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $109.99 <span>$120.99</span> </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/customDerbyCover.jpg" alt="">
+            <div class="content">
+                <h3>Custom Derby Cover</h3>
+                <p>Custom Laser Derby Covers available in Matte, Wrinkled or Gloss
+                     Finish. Not available in Chrome. Choose for 1970-1990 BigTwin /
+                     1994-2003 Sportster / 2019 & up BigTwin Narrow.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $219.99 <span>$250.99</span> </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/sissyBar.jpg" alt="">
+            <div class="content">
+                <h3>Sissy Bar</h3>
+                <p>These hardtail sissy bars designed for use with our Evo Sportster 
+                    Hardtail Kit, and 5" flat fender, but can fit on most hardtail 
+                    frames.  Sissy bars are TIG welded and ready for installation.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $169.99 <span>$200.99</span> </div>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- product section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/maintenance.jpg" alt="">
+            <h3>Maintenance</h3>
+            <p>Fluid Changes, Brakes & Rotors, Chain Cleaning & Replacing, Tires.</p>
+        </div>
+        <div class="box">
+            <img src="images/engineWork.jpg" alt="">
+            <h3>Engine Work</h3>
+            <p>Gaskets, Fuel Lines, Pressure Testing, Carburetors, Chokers, Air & Fuel Ratio.</p>
+        </div>
+        <div class="box">
+            <img src="images/fabrication.jpg" alt="">
+            <h3>Fabrication</h3>
+            <p>Bending & Fixing Damaged Frames, Fixing Broken Or Bent Fairings. Repairing Damaged Suspension.</p>
+        </div>
+        <div class="box">
+            <img src="images/welding.jpg" alt="">
+            <h3>Welding</h3>
+            <p>Welding Tubes, Brackets & Braces, custome or pre-assembled parts. </p>
+        </div>
+        <div class="box">
+            <img src="images/customePipes&Frames.jpg" alt="">
+            <h3>Custom Services</h3>
+            <p>Custom Designs For Frames, Pipes, Handlebars, Seats, And Accessories. </p>
+        </div>
+        <div class="box">
+            <img src="images/shipping.jpg" alt="">
+            <h3>Nationwide Shipping</h3>
+            <p>Freight Shipping Nationwide, Provided By Fedex Freight, DHL & HPO.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/bradPit.png" alt="">
+            <div class="content">
+                <h3>Brad Pit</h3>
+                <p>1983 Harley Davidson Hardtail. This chopper has had a complete 
+                rework. From modified engine internals to custom etching and paint.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/DannyTrejo.jpg" alt="">
+            <div class="content">
+                <h3>Danny Trejo</h3>
+                <p>2000 Honda Sabre 1100. This bike has custom paint, springer 
+                    suspension and large rabbitear handlebars.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Minka Kelly from charlie's Angels.jpg" alt="">
+            <div class="content">
+                <h3>Minka Kelly</h3>
+                <p>1999 Triumph Thunderbird. This bike was detuned and had ABS & 
+                    Traction Control enabled. This improved safety for Minka 
+                    in Charlie's Angels.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/davidBeckham.jpg" alt="">
+            <div class="content">
+                <h3>David Beckham</h3>
+                <p>1982 BMW r100 Cafe Racer. This cafe racer is fitted 
+                    with custom springer suspension and handlebars. A bike 
+                    built to zip around town.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/jasonMomoa.jpg" alt="">
+            <div class="content">
+                <h3>Jason Momoa</h3>
+                <p>1961 Harley Davidson Panhead. THe engin has been re-drilled 
+                    and an extend fork was custom made to fit the short springers.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Norman Reedus and Jeffrey Dean Morgan.jpg" alt="">
+            <div class="content">
+                <h3>Norman R. & Jeffrey M.</h3>
+                <p>1937 Harley Davidson Knucklehead. Norman & Jeffrey on the set of 
+                    TWD. This bike had a comeplete rebuild.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/KeanuReeves.png" alt="">
+            <div class="content">
+                <h3>Keanu Reeves</h3>
+                <p>Arch prototype. In collaberation with Keanu Reeves, we joined 
+                    forces to create a magnificent bike with ARCH.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Sam Vargus.jpg" alt="">
+            <div class="content">
+                <h3>Sam Vargus</h3>
+                <p>1993 VLX 600 (Shadow). The frame has been replaced to 
+                    fit slim wheels and accessories have been added.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Arnold Schwarzenegger.jpg" alt="">
+            <div class="content">
+                <h3>Arnold Schwarzenegger</h3>
+                <p>1990 Harley Davidson FatBoy. Arnold dropping off his 
+                    FatBoy before the filming of Terminator 2.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/Keanu Reeves Review.jpg" alt="">
+                <h3>Keanu Reeves</h3>
+                <p>Its been a pleasure to be working alongside CS Garage! The staff is 
+                    great and i will definitely be recommending them highly to everyone 
+                    and look forward to doing business with them in the future.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/Jason Momoa Review.jpg" alt="">
+                <h3>Jason Momoa</h3>
+                <p>Had a custom derby cover engraved from CS Garage. Got to my house 
+                    in 2 days. The quality of work is outstanding.  And believe it 
+                    or not customer service is even better. Great work guys. Highly 
+                    recommended!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/Norman Reedus Reviewjpg.jpg" alt="">
+                <h3>Norman Reedus</h3>
+                <p>Everything was great! Took a motorcycle there that was a 
+                    project half finished from a friend. CS tackled the project 
+                    head on and was able to fix everything up for me way faster than 
+                    I anticipated. Stayed in contact with me every step of the way! 
+                    I wouldn't take a motorcycle anywhere else.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/Brad Pit Review.png" alt="">
+                <h3>Brad Pit</h3>
+                <p>Was having obvious carburetor problems. He found a problem I 
+                    didn't expect, ordered the parts, had the repair done in a 
+                    timely matter and charged me what the estimate stated. The bike 
+                    runs better and pulls harder than it ever has in the 6 years.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contactUs.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="logo" src="images/Indian Logo.png" alt=""></div>
+            <div class="swiper-slide"><img class="logo" src="images/chopperShop Logo.png" alt=""></div>
+            <div class="swiper-slide"><img class="logo" src="images/Harley Davidson Logo.png" alt=""></div>
+            <div class="swiper-slide"><img class="logo" src="images/Throttle Addiction Logo.png" alt=""></div>
+            <div class="swiper-slide"><img class="logo" src="images/Honda Logo.png" alt=""></div>
+            <div class="swiper-slide"><img class="logo" src="images/TJ Logo.png" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<footer class="footer">
+
+    <section class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>We are a proud American brand based in Atlanta, Georgia. Our mission 
+                is to allow riders to forge new adventures with old friends.</p>
+        </div>
+        <div class="box">
+            <h3>Location</h3>
+            <a href="#">USA</a>
+            <a href="#">ATL, Georgia</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">product</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </section>
+
+    <h1 class="credit"> created by <span> Jose Trejo </span> | all rights reserved! </h1>
+
+</footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
